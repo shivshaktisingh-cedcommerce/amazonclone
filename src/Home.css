@@ -1,0 +1,43 @@
+.home{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home_image{
+    width:100%;
+    mask-image:linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.3));
+    z-index: -1;
+    margin-bottom: -170px;
+}
+.home_product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 100vw;
+}
+.product1{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding: 5vw;
+}
+.product1 > button{
+    background-color: #FFD814;
+    border: none;
+    padding: 1vw;
+    border-radius: 5px;
+    font-size: 3vh;
+}
+.top_deals{
+    margin-left: 3vw;
+}
+@media screen and (min-width: 1600px) {
+    .home{
+        max-width: 2800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 800px) {
+    .home_row{
+        padding-top: 20vh;
+    }
+}
